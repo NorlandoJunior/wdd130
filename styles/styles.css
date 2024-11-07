@@ -30,8 +30,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: white;
+    color: black;
     text-align: center;
 }
 
@@ -46,6 +46,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid solid black;
     text-align: center;
 }
