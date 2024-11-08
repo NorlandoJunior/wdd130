@@ -1,5 +1,5 @@
 nav {
-    background-color: darkblue;
+    background-color:darkblue;
     padding: 10px;
 }
 
@@ -30,8 +30,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: white;
-    color: black;
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
 
@@ -46,6 +46,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid solid black;
+    border-top: 1px solid #000;
     text-align: center;
 }
