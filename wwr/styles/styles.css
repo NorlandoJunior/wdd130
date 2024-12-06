@@ -147,3 +147,31 @@ footer p {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+  }
+  
+  .item {
+    text-align: center; 
+    flex: 1; 
+    margin: 0 10px; 
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+  }
+  
+  .item p {
+    margin-top: 10px; 
+  }
+
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
