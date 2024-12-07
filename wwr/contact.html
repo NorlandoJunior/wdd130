@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore rafting adventures with White Water Rafting. Discover our history, our tours and contact us.">
+    <meta name="description" content="Find out how to contact us">
     <meta name="author" content="Norlando Jr.">
-    <title>White Water About Us</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Contact Us - White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300..800;1,300..800&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;800&family=Roboto+Condensed:wght@300;800&display=swap" rel="stylesheet">
 </head>    
 <body>
     <!-- Header -->
     <header>
-        <img src="images/logo-whitewater-rafting.png" alt="Logo" class="logo">
+        <img src="images/logo-whitewater-rafting.png" alt="White Water Rafting Logo" class="logo">
         <nav>
             <a href="about.html">Home</a>
             <a href="about.html">About</a>
@@ -28,86 +26,102 @@
     <!-- Main Content -->
     <main>
         <!-- Contact Information -->
-        <div class="contact-information">
+        <section class="contact-information">
             <h1>Contact Information</h1>
-            <p>Phone number: +1 (425) 555-0100</p>
-            <p>Email: whitewaterrafting@contact.com</p>
-            <p>Yellowstone National Park, United States</p>
-        </div>
+            <p><strong>Phone:</strong> +1 (425) 555-0100</p>
+            <p><strong>Email:</strong> whitewaterrafting@contact.com</p>
+            <p><strong>Location:</strong> Yellowstone National Park, United States</p>
+        </section>
 
         <!-- Map -->
-        <div class="map-container">
+        <section class="map-container">
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d727284.8256211332!2d-110.561249!3d44.5979182!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1733439033575!5m2!1spt-BR!2sbr" 
                 allowfullscreen 
                 loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Location Map">
             </iframe>
-        </div>
+        </section>
 
         <!-- Meet the Team -->
-        <h2>Meet the Team</h2>
-        <div class="container">
-            <div class="item">
-                <img src="images/employeer1.jpg" alt="Team Member 1">
-                <p>Lorem ipsum dolor sit amet...</p>
+        <section>
+            <h3>Meet the Team</h3>
+            <div class="container">
+                <div class="item">
+                    <img src="images/employeer1.jpg" alt="Team Member 1">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="item">
+                    <img src="images/employer2.jpg" alt="Team Member 2">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+                <div class="item">
+                    <img src="images/employer3.jpg" alt="Team Member 3">
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
             </div>
-            <div class="item">
-                <img src="images/employer2.jpg" alt="Team Member 2">
-                <p>Lorem ipsum dolor sit amet...</p>
-            </div>
-            <div class="item">
-                <img src="images/employer3.jpg" alt="Team Member 3">
-                <p>Lorem ipsum dolor sit amet...</p>
-            </div>
-        </div>
+        </section>
 
         <!-- Contact Form -->
-        <form>
-            <fieldset>
-                <legend>Contact Information</legend>
-                <div class="column1">
+        <section>
+            <form>
+                <fieldset>
+                    <div class="column1">
+                    <legend>Contact Information</legend>
                     <label for="fullname">Full Name:</label>
                     <input type="text" id="fullname" name="fullname" required>
                     <label for="emailaddress">Email:</label>
                     <input type="email" id="emailaddress" name="emailaddress" required>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Questions</legend>
-                <div class="column2">
-                    <label for="generalinquiry">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="column2">
+                    <label>
                         <input type="radio" id="generalinquiry" name="question" value="generalinquiry">
                         General Inquiry
                     </label>
-                    <label for="reservationquestion">
+                    <label>
                         <input type="radio" id="reservationquestion" name="question" value="reservationquestion">
                         Reservation Question
                     </label>
-                    <label for="websitesuggestion">
-                        <input type="text" id="websitesuggestion" name="websitesuggestion" placeholder="Website Suggestion">
+                    <label>
+                        <input type="radio" id="websitesuggestion" name="question" value="websitesuggestion">
+                        Website Suggestion
                     </label>
-                    <label for="subscribe">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="2" placeholder="Your feedback here..."></textarea>
+                    <label>
                         <input type="checkbox" id="subscribe" name="subscribe">
                         Subscribe to the monthly newsletter
                     </label>
-                </div>
-                
-            </fieldset>
-            <button type="submit">Submit</button>
-        </form>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Whitewater Rafting - All Rights Reserved by Norlando Jr.</p>
         <div class="social-icons">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook" class="social-icon"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-logo.png" alt="Instagram" class="social-icon"></a>
-            <a href="https://x.com/" target="_blank"><img src="images/x-logo.png" alt="x" class="social-icon"></a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook-logo.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram-logo.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="images/x-logo.png" alt="X (formerly Twitter)" class="social-icon">
+            </a>
         </div>
-        <p><a href="https://app.moqups.com/daT3tN8X7uAojkHCJxV77RBulk9yYDmd/view/page/ad64222d5" target="_blank">View Contact Us Wireframe</a></p>
+        <p>
+            <a href="https://app.moqups.com/daT3tN8X7uAojkHCJxV77RBulk9yYDmd/view/page/ad64222d5" target="_blank">
+                View Contact Us Wireframe
+            </a>
+        </p>
     </footer>
-    
 </body>
 </html>
