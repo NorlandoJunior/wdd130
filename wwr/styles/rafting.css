@@ -230,3 +230,18 @@ footer p {
 
 }
 
+.trip-descriptions{
+    padding: 30px;
+    background-color: #264969;
+    color: white;
+}
+
+.trip {
+    text-align: center;
+}
+
+.trip img {
+    display:block;  
+    margin: 0 auto; 
+    display: block; 
+}
